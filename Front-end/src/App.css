@@ -1,0 +1,120 @@
+body {
+  color: #2d3073;
+}
+html {
+  scroll-behavior: smooth;
+}
+.margin-10 {
+  margin-top: 10%;
+}
+.margin-5 {
+  margin-top: 5%;
+}
+.navbar {
+  z-index: 9999;
+  transform: translateZ(9999);
+}
+.texty {
+  color: #2d3073;
+}
+.pinkyColor {
+  color: #f32987;
+}
+.pinkyBGC {
+  background-color: #f32987;
+}
+
+.headerBGCont {
+  position: relative;
+}
+
+.headerBgcText {
+  background-color: rgba(8, 206, 255, 0.842);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.headerCont {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.headerBgImg {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.projects {
+  margin-top: 2%;
+}
+.bp {
+  border-top: 2px solid #33c7a7;
+}
+.projectsContBgc {
+  background-color: #33c7a771;
+}
+
+.projectsCard {
+  background-color: #13ebbcb4;
+}
+
+.projectsButton {
+  background-color: #f32987bd;
+}
+
+.lab {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.labCard {
+  background-color: #f3298794;
+}
+
+.bl {
+  border-top: 2px solid #f3298794;
+}
+
+.card {
+  border: 0px;
+}
+
+.footerBGC {
+  background-color: #33c7a76b;
+}
+
+.footerUl {
+  list-style-type: circle;
+}
+
+@media only screen and (max-width: 1024px) {
+  .headerCont {
+    height: 60vh;
+  }
+  .headerBgImg {
+    width: 100%;
+    height: 55vh;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .headerBgImg {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .headerBgImg {
+    margin-top: 12%;
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .headerBgImg {
+    margin-top: 19%;
+    height: 40vh;
+  }
+}
