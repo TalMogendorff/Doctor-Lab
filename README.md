@@ -1,5 +1,5 @@
 # Sheba-EMR-LAB
-# Tech - **Mern Stack with axios and context**
+# Tech - **MERN Stack with axios and context**
 **Final Project** -
 Hi there DOC ! I have created for you a CRUD system for your projects handling.
 The first steps you need to do is :
