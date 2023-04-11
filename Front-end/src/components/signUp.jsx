@@ -3,7 +3,7 @@ import PageHeader from "./common/pageHeader";
 import Joi from "joi-browser";
 import Form from "./common/form";
 import http from "../services/httpService";
-import { sheba } from "../config.json";
+import { doctor } from "../config.json";
 // import { toast } from "react-toastify";
 import  { toast } from 'react-toastify';
 import userService from "../services/userService";
@@ -24,7 +24,7 @@ class SignUp extends Form {
   doSubmit = async () => {
     const data = { ...this.state.data };
     try {
-      await http.post(`${sheba}/users`, data);
+      await http.post(`${doctor}/users`, data);
       toast.success(`${data.name}, You registered successfully!`, {
         position: "top-center",
         autoClose: 5000,
