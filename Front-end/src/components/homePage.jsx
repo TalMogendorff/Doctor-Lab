@@ -12,7 +12,7 @@ class Home extends Component {
             <div className="headerCont mt-3">
               <div className="headerBGCont">
                 <h1 className="headerBgcText rounded text-white text-center p-2">
-                  Welcome to Sheba EMR lab Site !
+                  Welcome to Doctor lab Site !
                 </h1>
                 <img
                   className="headerBgImg"
@@ -65,7 +65,7 @@ class Home extends Component {
                 <div className=" col-xl-4 mt-5 ">
                   <div className="ourProjectImgCont">
                     <img
-                      src="https://eng.sheba.co.il/webfiles/fck/image/headers/ad5a6a82544fac5a57026d29d7bb815c.jpg"
+                      src="https://eng.doctor.co.il/webfiles/fck/image/headers/ad5a6a82544fac5a57026d29d7bb815c.jpg"
                       className="d-block w-100 h-120 "
                       alt="building"
                     />
@@ -212,7 +212,7 @@ class Home extends Component {
                 </ul>
               </div>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13527.332209956623!2d34.842852!3d32.04671!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x81d1075dcacc6c30!2sSheba%20Medical%20Center!5e0!3m2!1sen!2sil!4v1609802378009!5m2!1sen!2sil"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13527.332209956623!2d34.842852!3d32.04671!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x81d1075dcacc6c30!doctor%20Medical%20Center!5e0!3m2!1sen!2sil!4v1609802378009!5m2!1sen!2sil"
                 width="300"
                 height="150"
                 title="Iframe"
