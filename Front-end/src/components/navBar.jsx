@@ -8,8 +8,8 @@ class Navbar extends Component {
       <nav className="navbar navbar-expand-xl navbar-light bg-light fixed-top shadow rounded ">
         <Link className="navbar-brand mx-2" to="/">
           <img
-            src="https://eng.sheba.co.il/webfiles/languages/2/SHEBA_LOGO_ENG_NEW.png"
-            alt="Sheba logo"
+            src="https://doctor.com/png"
+            alt="Doctor logo"
             width="120"
           />
         </Link>
