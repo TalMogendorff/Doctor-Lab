@@ -1,6 +1,6 @@
 @local = http://localhost:8181
 @token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmY1ZTM2NGQ0YTFiZTM2YTg2NDU5MGQiLCJuYW1lIjoiYWFhYmJiIiwiaWF0IjoxNjA5OTUwMTgxfQ.ne_J3SsxGV8paD9KKtAu8UNugj1i2AxwKwpp-sXg50w
-POST {{local}}/sheba/users
+POST {{local}}/doctor/users
 content-type: application/json
 
 {
@@ -11,7 +11,7 @@ content-type: application/json
 
 ###
 
-POST {{local}}/sheba/auth
+POST {{local}}/doctor/auth
 content-type: application/json
 
 {
@@ -21,13 +21,13 @@ content-type: application/json
 
 ###
 
-GET {{local}}/sheba/projects/my-projects
+GET {{local}}/doctor/projects/my-projects
 content-type: application/json
 x-auth-token: {{token}}
 
 ###
 
-POST {{local}}/sheba/projects/
+POST {{local}}/doctor/projects/
 content-type: application/json
 x-auth-token: {{token}}
 
@@ -39,7 +39,7 @@ x-auth-token: {{token}}
 
 ###
 
-PUT  {{local}}/sheba/projects/5ff5eac8ab65495c3cd7985c
+PUT  {{local}}/doctor/projects/5ff5eac8ab65495c3cd7985c
 content-type: application/json
 x-auth-token: {{token}}
 
@@ -51,6 +51,6 @@ x-auth-token: {{token}}
 
 ###
 
-POST {{local}}/sheba/users/favorites/5ff5ea8eab65495c3cd7985b
+POST {{local}}/doctor/users/favorites/5ff5ea8eab65495c3cd7985b
 x-auth-token: {{token}}
 
